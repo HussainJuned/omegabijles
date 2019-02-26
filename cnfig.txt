@@ -1,0 +1,6 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=mail.webprosbd.com
+MAIL_PORT=587
+MAIL_USERNAME=_mainaccount@webprosbd.com
+MAIL_PASSWORD=5S6Djh00yn
+MAIL_ENCRYPTION=null

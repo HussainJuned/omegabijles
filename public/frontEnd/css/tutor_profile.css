@@ -1,0 +1,589 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #414141;
+    text-align: left;
+    background-color: #F7FBFF;
+    font-family: "Avenir Next";
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 28px;
+    color: #4a4a4a;
+    font-family: "Avenir Next";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.left_content p {
+    margin-bottom: 2.5rem;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    transition: 0.1s;
+    color: #4a4a4a;
+    font-family: "Avenir Next";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #ff7768;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    border-radius: 0;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+input,
+button,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    color: #494949;
+}
+
+h1 {
+    font-weight: 600;
+    color: #4a4a4a;
+    font-family: "Avenir Next";
+    font-size: 28px;
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+h4 {
+    max-width: 100%;
+    color: #4a4a4a;
+    font-family: "Avenir Next";
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+
+/* Site Classes */
+
+
+/* ************ */
+
+.fa-star {
+    color: #F9F3D8;
+}
+
+
+.padding_dflt {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.back_text {
+    padding: 45px 30px 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+main {
+    /* background-color: #F7FBFF; */
+}
+
+.my_card {
+    background: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 25px 0px #efefef;
+}
+
+span {
+    /* margin-left: 5px; */
+    /* margin-right: 20px; */
+}
+
+.profile_img {
+    /*! border-radius: 50%; */
+    /*! width: 100%; */
+    /* flex: 0 0 20%; */
+    /* max-width: 20%; */
+}
+
+.profile_img img {
+    border-radius: 50%;
+    border: 2px solid #979797;
+    width: 155px;
+    display: block;
+    margin: auto;
+}
+
+.star_ratings {
+    font-size: 19px;
+}
+
+.name_tutor {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.checked {
+    color: #f8d61c;
+}
+
+.tutor_icons {
+    color: #4090f3;
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.tutor_icons span {
+    font-size: 0.9rem;
+    color: #535353;
+}
+
+.price {
+    margin-top: 6px;
+    /* padding-left: 80px; */
+}
+
+
+.price span {
+    color: #4a4a4a;
+    font-family: "Avenir Next";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.left_content {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.tabular p {
+    margin-bottom: 0.1rem;
+    font-weight: 500;
+}
+
+.left_cell {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.right_cell {
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.left_cell p {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    font-weight: 500;
+}
+
+.single_block {
+    margin-bottom: 50px;
+}
+
+.standout {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.inline_ratings {
+    margin: 0;
+    font-size: 12px;
+}
+
+.small_text {
+    padding-left: 10px;
+    color: #4a4a4a;
+    font-family: "Avenir Next";
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.review_title {
+    margin: 0;
+    padding-right: 15px;
+    font-family: "Avenir Next";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.review_cmt {
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+}
+
+.standout_review {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.standout_review .inline_ratings {
+    font-size: 11px;
+}
+
+.review_cmt strong {
+    font-size: 14px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.review_form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_control {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #979797;
+    font-size: 14px;
+}
+
+textarea.form_control {
+    padding: 20px 20px 100px;
+    resize: none;
+}
+
+.right_content {
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit_btn {
+    background-color: #FF7768;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    width: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.submit_btn:hover {}
+
+.space_around {
+    padding-left: 30px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+p span {
+    color: #4a4a4a;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.tutor_icons img {
+    margin-right: 5px;
+}
+
+.curricullar_reviews {
+    text-align: center;
+}
+
+.ti_box {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    font-size: 14px;
+    white-space: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+h4:hover {
+}
+
+.sticky-top.right_side {
+	top: 100px;
+    display: none;
+}
+
+.btn-availability {
+    background: #ff7868;
+    color: #fff;
+    padding: 5px 5px;
+    width: 100%;
+    transition: 0.2s;
+    white-space: normal;
+}
+
+.btn-availability:hover,
+.btn-availability:focus {
+	background-color: #ff614f;
+}
+
+.fixed_button {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	z-index: 500;
+	background: #fff;
+	border-top: 1px solid #e5e5e5;
+	color: #22caa2;
+	width: 100%;
+	padding-top: 7px;
+	align-content:  center;
+	padding-bottom: 7px;
+	align-items: center;
+}
+
+
+.fixed_button .price h4, .fixed_button .price h4 span {
+  color: #22caa2;
+  font-size: 14px;
+}
+
+/*media query*/
+
+@media (min-width: 375px) {
+    .my_card {
+        padding-left: 52px;
+        padding-right: 30px;
+    }
+    .left_cell p {
+        text-align: center;
+        width: 100%;
+    }
+    .standout {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .standout_review .inline_ratings {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .btn-availability {
+        padding: 8px 15px;
+    }
+    .fixed_button {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .fixed_button .price h4, .fixed_button .price h4 span {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .my_card {
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+    .left_cell p {
+        text-align: left;
+        width: 50%;
+        margin-left: auto;
+    }
+    .right_cell {
+        text-align: left;
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+    .standout {
+        font-size: 22px;
+        margin-right: 15px;
+    }
+    .standout_review .inline_ratings {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .btn-availability {
+        padding: 15px 50px;
+    }
+    .fixed_button {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .fixed_button .price h4, .fixed_button .price h4 span {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 768px) {
+    .my_card {
+        padding-left: 90px;
+        padding-right: 30px;
+    }
+    .left_content {
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+    .standout {
+        font-size: 22px;
+        margin-right: 15px;
+    }
+    .standout_review .inline_ratings {
+        font-size: 18px;
+    }
+    small_text {
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .btn-availability {
+        padding: 15px 50px;
+    }
+    .fixed_button {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .fixed_button .price h4, .fixed_button .price h4 span {
+        font-size: 26px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .my_card {
+        padding-left: 110px;
+    }
+    .tutor_icons {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .sticky-top.right_side {
+        display: block;
+    }
+    .fixed_button {
+        display: none;
+    }
+}
+
+(min-width:576px) .left_cell p {
+    width: 100%;
+}
