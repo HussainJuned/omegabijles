@@ -111,9 +111,13 @@
 
         <h2 class="pl-2">Moeite met een bepaald vak?</h2>
 
-        <p class="py-3" style="color: #fff!important;">Wij geven persoonlijk afgestemde bijlessen zodat<br> ook jij beter leert en toetsen maakt zonder stress<br>
-<br>
-        Beoordeeld met een 8,2 (5/5 sterren) op Trustpilot!</p>
+        <p class="py-3" style="color: #fff!important;">
+            <span class="jontronar_lb">
+                Wij geven persoonlijk afgestemde bijlessen zodat<br> ook jij beter leert en toetsen maakt zonder stress
+            </span>
+            <br>
+            <br>
+            Beoordeeld met een 8,2 (5/5 sterren) op Trustpilot!</p>
 
     </div>
 
