@@ -49,7 +49,7 @@
 </script>
 <body>
 
- <header class="container-fluid main-header" style="height: auto;">
+ <header class="container-fluid main-header height-md-auto">
 
     <nav class="navbar navbar-expand-lg">
 
