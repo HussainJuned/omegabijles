@@ -13,7 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/register', 'RegisterController@showRegisterForm');
-Route::get('/contact', 'HomeController@getContact');
+Route::get('/contact', 'HomeController@getContact')->name("contact");
 Route::get('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@showLoginForm']);
 Route::post('/contact', 'HomeController@postContact');
 Route::get('/hoehetwerkt', 'HomeController@howitworks');
