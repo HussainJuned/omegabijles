@@ -29,7 +29,7 @@
             <div class="col-md-3 col-sm-4 col-12">
                 <ul class="footer_ul">
                     <li><a href="{{url('/haarlem/natuurkunde')}}">Bijles Natuurkunde in Haarlem</a></li>
-                    <li><a href="{{url('/haarlem/economie')}}"">Bijles Economie in Haarlem</a></li> 
+                    <li><a href="{{url('/haarlem/economie')}}">Bijles Economie in Haarlem</a></li>
                     <li><a href="{{url('/haarlem/wiskundea')}}">Bijles Wiskunde A in Haarlem </a></li>
                     <li><a href="{{url('/velsen/geschiedenis')}}">Bijles Geschiedenis in Velsen</a></li>
                     <li><a href="{{url('/velsen/engels')}}">Bijles Engels in Velsen</a></li>
@@ -107,6 +107,11 @@
             </div>
             <div class="col-md-3">
                 <h6 class="mt-3">Optimaal vooruit.</h6>
+                {{--<h6 class="mt-3">
+                    Dev By:
+                    <a href="https://webprosbd.com">Shawon</a>,
+                <a href="https://hussain-juned.com">Emrul</a> and
+                    <a href="https://hussain-juned.com">Juned</a></h6>--}}
             </div>
         </div>
     </div>

@@ -461,7 +461,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body zoeken_body">
 
                     <section id="filter">
                         <div class="filter cta-box container modal-filter">
@@ -502,9 +502,9 @@
                     </section>
 
                 </div>
-                <div class="modal-footer">
+                {{--<div class="modal-footer">
                     <button type="button" class="btn btn-secondary py-0" data-dismiss="modal">Close</button>
-                </div>
+                </div>--}}
             </div>
         </div>
     </div>
