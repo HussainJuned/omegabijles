@@ -1,42 +1,1 @@
-
-// $(window).scroll(function() {    
-//     var scroll = $(window).scrollTop();
-
-//     if(scroll >= 500) {
-//         $(".navbar").addClass("fixed-top");
-//     } else {
-//         $(".navbar").removeClass("fixed-top");
-//     }
-// });
-
-jQuery(document).ready(function($) {
-	$('.header-manu').click(function(event) {
-		$(".collapse").addClass("bg-color");
-	});
-});
-
-$(document).ready(function() {
-
-  $(".toggle-accordion").on("click", function() {
-    var accordionId = $(this).attr("accordion-id"),
-      numPanelOpen = $(accordionId + ' .collapse.in').length;
-    
-    $(this).toggleClass("active");
-
-    if (numPanelOpen == 0) {
-      openAllPanels(accordionId);
-    } else {
-      closeAllPanels(accordionId);
-    }
-  })
-
-  openAllPanels = function(aId) {
-    console.log("setAllPanelOpen");
-    $(aId + ' .panel-collapse:not(".in")').collapse('show');
-  }
-  closeAllPanels = function(aId) {
-    console.log("setAllPanelclose");
-    $(aId + ' .panel-collapse.in').collapse('hide');
-  }
-     
-});
+// $(window).scroll(function() {    //     var scroll = $(window).scrollTop();//     if(scroll >= 500) {//         $(".navbar").addClass("fixed-top");//     } else {//         $(".navbar").removeClass("fixed-top");//     }// });jQuery(document).ready(function($) {	$('.header-manu').click(function(event) {		$(".collapse").addClass("bg-color");	});  var stickyOffset = $('.sticky_nav').offset().top;  $(window).scroll(function(){    var sticky = $('.sticky_nav'),        scroll = $(window).scrollTop();    if (scroll >= stickyOffset + 8) sticky.addClass('sticked');    else sticky.removeClass('sticked');  });});$(document).ready(function() {  $(".toggle-accordion").on("click", function() {    var accordionId = $(this).attr("accordion-id"),      numPanelOpen = $(accordionId + ' .collapse.in').length;        $(this).toggleClass("active");    if (numPanelOpen == 0) {      openAllPanels(accordionId);    } else {      closeAllPanels(accordionId);    }  })  openAllPanels = function(aId) {    console.log("setAllPanelOpen");    $(aId + ' .panel-collapse:not(".in")').collapse('show');  }  closeAllPanels = function(aId) {    console.log("setAllPanelclose");    $(aId + ' .panel-collapse.in').collapse('hide');  }     });
