@@ -124,7 +124,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-4 no-pading text-center">
                     <!-- Button trigger modal -->
-                    <button type="button" class=" btn my-btn1 selections bg-white" data-toggle="modal" data-target="#openSearch">
+                    <button type="button" class=" btn my-btn1 selections bg-white btn-outlin" data-toggle="modal" data-target="#openSearch">
                         Zelf zoeken
                     </button>
                 </div>
@@ -464,10 +464,10 @@
                 <div class="modal-body zoeken_body">
 
                     <section id="filter">
-                        <div class="filter cta-box container modal-filter">
-                            <div class="row">
-                                <div class="col-md-3 no-pading">
-                                    <select class="selections btn my-btn1 btn-select" name="subject" id="subject">
+                        <div class="filter cta-box w-100 modal-filter">
+                            <div class="row ml-0">
+                                <div class="col-md-4 no-pading">
+                                    <select class="selections btn my-btn1 btn-select w-md-100" name="subject" id="subject">
                                         <option value="Aardrijkskunde">Aardrijkskunde</option>
                                         <option value="Biologie">Biologie</option>
                                         <option value="Duits">Duits</option>
