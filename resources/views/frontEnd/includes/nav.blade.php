@@ -3,7 +3,7 @@
   color: #020401 !important
 }
 </style>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg sticky_nav">
 
   <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('public/temp/img/logo.png')}}" alt="" width="100%"></a>
 
@@ -40,8 +40,9 @@
             style="color: #020401 !important"
        @endif 
       href="{{ url('/wordbijlesgever') }}">Word bijlesgever</a>
+        <span class="nav_divider" ></span>
 
-      <a class="nav-item nav-link" 
+        <a class="nav-item nav-link"
       @if(request()->is('/contact'))
             style="color: #020401 !important"
        @endif 
@@ -52,6 +53,9 @@
             style="color: #020401 !important"
        @endif 
       href="{{ url('/login') }}">Login</a>
+        <a class="nav-item nav-link nav_btn"
+           href="{{ url('/contact') }}">Bijles aanvragen <span><i class="fas fa-long-arrow-alt-right"></i></span>
+        </a>
 
     </div>
 
