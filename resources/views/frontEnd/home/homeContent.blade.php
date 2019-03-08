@@ -22,6 +22,8 @@
 
 
 @section('content')
+
+    <body>
     <style type="text/css">
         .tastimonials .carousel-control-next {
             right: -3%;
@@ -52,7 +54,7 @@
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
-    <body>
+
     <header class="container-fluid main-header height-md-auto pt-70">
         <nav class="navbar navbar-expand-lg sticky_nav">
             <a class="navbar-brand" href="{{url('/')}}">
