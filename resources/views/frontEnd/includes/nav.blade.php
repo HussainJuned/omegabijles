@@ -5,7 +5,8 @@
 </style>
 <nav class="navbar navbar-expand-lg sticky_nav">
 
-  <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('public/temp/img/logo.png')}}" alt="" width="100%"></a>
+  <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('public/temp/img/logo.png')}}" alt="" width="100%" class="initial_nav_img">
+      <img src="{{url('public/temp/img/logo_ob_blauw.png')}}" alt="" width="100%" class="sticked_nav_img"></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 
