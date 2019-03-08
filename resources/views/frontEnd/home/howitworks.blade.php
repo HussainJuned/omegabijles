@@ -1,18 +1,20 @@
-
-
- <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Omegabijles">      
-	<meta property="og:description" content="Bijes in Haarlem, Bloemendaal of omgeving? Zoek gemakkelijk via Omegabijles de bijlesgever die bij je past! ✅ Bijles aan huis. ✅Voor VMBO, HAVO, VWO en gymnasium. ✅We helpen met de stof en geven persoonlijke tips mee. " />
-    <meta name="description" content="Gemakkelijk bijles aan huis vinden in regio Haarlem, Bloemendaal of omgeving ✅  Gebruik onze zoekmachine, vind de bijlesgever die bij je past. En ga gestructureerd aan de slag! ✅ Bijles aan huis. ✅ Voor VMBO, HAVO, VWO en gymnasium. ✅ We helpen met de stof en geven persoonlijke tips mee. ">
- 	<meta name="viewport" content="width=device-width, initial-scale=1"/> 
- 	<meta name="Language" content="nederlands" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="bijles, begeleiding, haarlem, bloemendaal, overveen, ijmuiden, velsen, santpoort, beverwijk, heemskerk, aan huis, vmbo, havo, vwo, gymnasium, omegabijles, hoe het werkt" />
-	<meta name="robots" content="index, follow" />
-	
-<Title>Omegabijles -  Hoe het werkt</Title>
-
 @extends('frontEnd.master')
+
+ @section('meta')
+     <meta property="og:type" content="website">
+     <meta property="og:site_name" content="Omegabijles">
+     <meta property="og:description" content="Bijes in Haarlem, Bloemendaal of omgeving? Zoek gemakkelijk via Omegabijles de bijlesgever die bij je past! ✅ Bijles aan huis. ✅Voor VMBO, HAVO, VWO en gymnasium. ✅We helpen met de stof en geven persoonlijke tips mee. " />
+     <meta name="description" content="Gemakkelijk bijles aan huis vinden in regio Haarlem, Bloemendaal of omgeving ✅  Gebruik onze zoekmachine, vind de bijlesgever die bij je past. En ga gestructureerd aan de slag! ✅ Bijles aan huis. ✅ Voor VMBO, HAVO, VWO en gymnasium. ✅ We helpen met de stof en geven persoonlijke tips mee. ">
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <meta name="Language" content="nederlands" />
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <meta name="keywords" content="bijles, begeleiding, haarlem, bloemendaal, overveen, ijmuiden, velsen, santpoort, beverwijk, heemskerk, aan huis, vmbo, havo, vwo, gymnasium, omegabijles, hoe het werkt" />
+     <meta name="robots" content="index, follow" />
+ @endsection
+
+@section('title', 'Hoe het werkt')
+@section('description', 'Hoe het werkt')
+
 @section('content')
 
 <body>

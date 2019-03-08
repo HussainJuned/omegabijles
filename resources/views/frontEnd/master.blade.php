@@ -2,7 +2,7 @@
 
 
 
-<html>
+<html lang="nl">
 
 <head>
 
@@ -14,11 +14,11 @@
 
   @yield('meta')
 
-   <link rel="icon" href="{{url('/public/favicon.ico')}}">
+   <link rel="icon" href="{{asset('/public/favicon.ico')}}">
 
 
 
-  <link rel="stylesheet" href="{{url('public/temp/styles/styles.css')}}">
+  <link rel="stylesheet" href="{{asset('public/temp/styles/styles.css')}}">
 
 
   <style type="text/css">
@@ -42,18 +42,19 @@
 
     @yield('content')
 
-  <script src="{{url('public/temp/js/jquery.min.js')}}"></script>
+  <script src="{{asset('public/temp/js/jquery.min.js')}}"></script>
 
-  <script src="{{url('public/temp/js/popper.min.js')}}"></script>
+  <script src="{{asset('public/temp/js/popper.min.js')}}"></script>
 
-  <script src="{{url('public/temp/js/bootstrap.min.js')}}"></script>
+  <script src="{{asset('public/temp/js/bootstrap.min.js')}}"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGQP5ZlgVr-tUIc2inBMeZgO7iZWkOuv8&libraries=places"
         type="text/javascript"></script>
-  <script src="{{url('public/temp/js/all.js')}}"></script>
+  <script src="{{asset('public/temp/js/all.js')}}"></script>
 
-  <script src="{{url('public/temp/js/coustom.js')}}"></script>
+  <script src="{{asset('public/temp/js/jquery-ui.js')}}"></script>
 
-  <script src="{{url('public/temp/js/jquery-ui.js')}}"></script>
+    <script src="{{asset('public/temp/js/coustom.js')}}" type="text/javascript"></script>
+
   @yield('scriptjs')
 </body>
 
