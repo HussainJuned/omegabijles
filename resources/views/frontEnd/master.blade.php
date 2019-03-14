@@ -53,7 +53,7 @@
 
   <script src="{{asset('public/temp/js/jquery-ui.js')}}"></script>
 
-    <script src="{{asset('public/temp/js/coustom.js')}}" type="text/javascript"></script>
+    <script src="{{asset('public/temp/js/coustom.js')}}"></script>
 
   @yield('scriptjs')
 </body>
