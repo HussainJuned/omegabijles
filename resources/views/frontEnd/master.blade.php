@@ -56,7 +56,7 @@
     <script src="{{asset('public/temp/js/coustom.js')}}"></script>
 
   @yield('scriptjs')
-</body>
+
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -98,6 +98,8 @@ drift.load('d8dw5i9dyzfa');
 <!--Cookiebot script-->
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="52c2e50a-ce3e-4fdc-8907-45ee95cb9c0f" type="text/javascript" async></script>
 <!--End of Cookiebot script-->
+ @stack("bottom_js")
+</body>
 </html>
 
  

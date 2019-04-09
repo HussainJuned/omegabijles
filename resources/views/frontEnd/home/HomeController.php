@@ -42,6 +42,7 @@ class HomeController extends Controller
     public function wordbijlesgever(){
       return view('frontEnd.home.wordbijlesgever');
     }
+
     public function wordbijlesgever2(){
       return view('frontEnd.home.wordbijlesgever2');
     }

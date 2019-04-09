@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use App\TutorInfo;
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +20,8 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('tutor.partials.header',function($view){
             $view->with('tutor',\App\TutorInfo::tutorInformation());
         });
+
+        Schema::defaultStringLength(191);
     }
     
 
