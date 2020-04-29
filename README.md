@@ -14,4 +14,4 @@ personal preferences.
 
 
 ## ScreenShot
-![GitHub Logo](/public/public/frontEnd/img/ss_omegabijles .png)
+![GitHub Logo](/public/frontEnd/img/ss_omegabijles.png)
